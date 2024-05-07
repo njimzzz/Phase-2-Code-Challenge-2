@@ -5,6 +5,7 @@ const BotCard = (props) => {
 
   let botType;
 
+  
   switch (bot.bot_class) {
     case "Assault":
       botType = <i className="bi bi-shield-check" />;
